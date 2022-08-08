@@ -19,24 +19,24 @@ public class SecondProblem {
 		}
 		
 		System.out.println("----------------------------------------------------------------------With Ternary Operator");
-		System.out.println((number>0)? "The number is Possitive":"The number is Negative");
+		System.out.println((number>0)? "The number is Possitive" : "The number is Negative");
 		
 		
 		System.out.println("===========================================================================================");
 		
-		int dividend = 2;
+		int divisor = 2;
 		String two = new String("two");
 		
-		if(number%dividend==0){
-			System.out.println("The number is divisible by"+" "+two.substring(0,1).toUpperCase()+two.substring(1));
+		if(number%divisor==0){
+			System.out.println("This number is divisible by"+" "+two.substring(0,1).toUpperCase()+two.substring(1));
 		}
 		else {
-			System.out.println("The number does not divisible by"+" "+two.substring(0,1).toUpperCase()+two.substring(1));
+			System.out.println("This number does not divisible by"+" "+two.substring(0,1).toUpperCase()+two.substring(1));
 		}
 		
 		System.out.println("----------------------------------------------------------------------With Ternary Operator");
 		
-		System.out.println((number%dividend==0)? "The number is divisible by Two":"The number does not divisible by Two");
+		System.out.println((number%divisor==0)? "This number is divisible by Two" : "This number does not divisible by Two");
 		
 		System.out.println("===========================================================================================");
 		
